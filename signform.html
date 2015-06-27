@@ -1,0 +1,56 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Foundation Template | Orbit Home</title>
+<link rel="stylesheet" href="foundation.css"/>
+<script src="modernizr.js"></script>
+</head>
+<body>
+<div class="sign-form">
+	<div class="row" >
+<div class="large-5 columns">
+<h3 class="first-child">Sign In To Your Account</h3>
+<hr>
+<form novalidate="novalidate" class="simple_form new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="9osSIj/F+JWcezwnIZAlDn2OqssqV6kwMYgRf549pKsCwz/BJF2GtR89m853pcCBTyjSnfqehdRARSsvK4J7/w=="><div class="input-group">
+<span class="input-group-addon">
+<i class="fa fa-user"></i>
+</span>
+<input class="string email optional form-control" placeholder="Enter email" type="email" value="" name="user[email]" id="user_email">
+</div>
+<br>
+
+<div class="input-group">
+<span class="input-group-addon">
+<i class="fa fa-lock"></i>
+</span>
+<input class="form-control" placeholder="Password" type="password" name="user[password]" id="user_password">
+</div>
+<div class="form-group boolean optional user_remember_me"><div class="checkbox"><input value="0" type="hidden" name="user[remember_me]"><label class="boolean optional" for="user_remember_me"><input class="boolean optional" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">Remember me</label></div></div>
+<input type="submit" name="commit" value="Submit" class="btn btn-default btn-color">
+<hr>
+</form>
+<p>
+Not registered?
+<a href="/users/sign_up">Create an Account.</a>
+</p>
+<div class="pwd-lost">
+<div class="pwd-lost-q show">
+Lost your password??
+<a href="#">Click here to recover.</a>
+
+</div>
+<div class="pwd-lost-f hidden">
+<p class="text-muted">Enter your email address and we will send you a link to reset your password.</p>
+<form class="simple_form form-inline" novalidate="novalidate" id="new_user" action="/users/password" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="9osSIj/F+JWcezwnIZAlDn2OqssqV6kwMYgRf549pKsCwz/BJF2GtR89m853pcCBTyjSnfqehdRARSsvK4J7/w=="><div class="form-group email optional user_email"><label class="email optional sr-only" for="user_email">Email</label><input class="string email optional form-control" placeholder="Enter email" type="email" value="" name="user[email]" id="user_email"></div>
+<input type="submit" name="commit" value="Send" class="btn btn-default btn-color">
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
